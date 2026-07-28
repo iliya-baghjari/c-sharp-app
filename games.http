@@ -1,0 +1,29 @@
+GET http://localhost:5196/games
+
+###
+GET http://localhost:5196/games/3
+
+###
+POST http://localhost:5196/games
+Content-Type: application/json
+
+{
+  "name": "New Game",
+  "genre": "Action",
+  "price": 59.99,
+  "releaseDate": "2024-06-01"
+}
+
+###
+PUT http://localhost:5196/games/6
+Content-Type: application/json
+
+{
+  "name": "Updated Game",
+  "genre": "Adventure",
+  "price": 49.99,
+  "releaseDate": "2024-05-15"
+}
+
+###
+DELETE http://localhost:5196/games/1
