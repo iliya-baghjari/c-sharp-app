@@ -3,7 +3,6 @@ using GameStore.Api.Data;
 using GameStore.Api.Endpoints;
 using Microsoft.EntityFrameworkCore;
 
-// Build the web application and configure its services.
 var builder = WebApplication.CreateBuilder(args);
 
 // Configure the SQLite database for the game store context.
